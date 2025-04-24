@@ -1,12 +1,17 @@
 @import "tailwindcss";
 
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
 
 @theme {
 
-    --color-myBlack: #353535;
-    --color-myCyan: #3c6e71;
-    --color-myWhite: #ffffff;
-    --color-myGrey: #d9d9d9;
-    --color-myBlue: #284b63;
+  --color-myBlack: #353333;
+  --color-myWhite: #e5dcd8;
+  --color-myOrange: #f35c4e;
+  
+  --font-primary: "Lilita One", "sans-serif";
+}
 
-  }
