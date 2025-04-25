@@ -1,7 +1,4 @@
 // import { Link } from 'react-router-dom';
-
-import DateComponent from "../components/DateComponent";
-
 // import { LeftArrowIcon } from "../icons/LeftArrow";
 
 export default function Contact() {
