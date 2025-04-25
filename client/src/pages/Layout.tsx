@@ -14,14 +14,14 @@ export default function Layout() {
     <div className="bg-myBlack min-h-screen flex flex-col">
 
       {/* Fixed Header */}
-      <header className="fixed border-b border-myWhite top-0 left-0 w-screen h-14 bg-myBlack z-50 text-myOrange font-extrabold font-primary flex items-center justify-center gap-1">
+      <header className="fixed border-b border-myWhiteLight top-0 left-0 w-screen h-14 bg-myBlack z-50 text-myOrange font-extrabold font-primary flex items-center justify-center gap-1">
         <span className='text-4xl flex h-10 items-end tracking-normal sm:text-9xl'>SEEMA STORE</span>
         <span className='text-2xl flex h-10 items-end sm:text-9xl'>.co.in</span>
       </header>
 
       {/* Main Content */}
-      <main className=" flex-1 border border-red-600 m-2 mt-30 p-1 overflow-auto">
-        <Outlet />
+      <main className=" flex-1 m-2 mt-30 p-1 overflow-auto">
+        <Outlet context={{ active, setActive }} />
       </main>
 
       {/* Spacer to offset fixed footer */}

@@ -6,6 +6,7 @@ import Login from './pages/Login'
 import Contact from './pages/Contact'
 import Layout from './pages/Layout'
 import ErrorPage from './pages/ErrorPage'
+import Admin from "./pages/Admin"
 function App() {
 
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/admin" element={<Admin />} />
         </Route>
         <Route path="*" element={<ErrorPage />} />
       </Routes>
